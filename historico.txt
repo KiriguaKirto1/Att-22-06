@@ -1,0 +1,102 @@
+Microsoft Windows [versão 10.0.26200.8655]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Guga>cd /d "%USERPROFILE%\Downloads\Projeto"
+
+C:\Users\Guga\Downloads\projeto>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é FAF5-5C96
+
+ Pasta de C:\Users\Guga\Downloads\projeto
+
+29/06/2026  17:47    <DIR>          .
+29/06/2026  17:39    <DIR>          ..
+27/06/2026  17:26             1.039 estilo.css
+27/06/2026  17:21         2.571.382 imagem1.jpg
+27/06/2026  17:22         2.675.541 imagem2.jpg
+27/06/2026  16:38         2.305.234 imagem3.jpg
+27/06/2026  16:38         2.863.447 imagem4.jpg
+27/06/2026  17:22         2.677.947 imagem5.jpg
+27/06/2026  16:39         2.490.223 imagem6.jpg
+27/06/2026  17:26             1.372 index.html
+27/06/2026  17:34       144.745.577 video1.mp4
+27/06/2026  17:35       131.793.443 video2.mp4
+27/06/2026  18:04             2.375 videos.css
+27/06/2026  17:44             1.752 videos.html
+              12 arquivo(s)    292.129.332 bytes
+               2 pasta(s)   12.047.978.496 bytes disponíveis
+
+C:\Users\Guga\Downloads\projeto>mkdir imgs
+
+C:\Users\Guga\Downloads\projeto>mkdir vids
+
+C:\Users\Guga\Downloads\projeto>ren imgs imagens
+
+C:\Users\Guga\Downloads\projeto>ren vids videos
+
+C:\Users\Guga\Downloads\projeto>move imagem1.jpg imagens\imagem1.jpg
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>move imagem2.jpg imagens\imagem2.jpg
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>move imagem3.jpg imagens\imagem3.jpg
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>move imagem4.jpg imagens\imagem4.jpg
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>move imagem5.jpg imagens\imagem5.jpg
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>move imagem6.jpg imagens\imagem6.jpg
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>move video1.mp4 videos\video1.mp4
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>move video2.mp4 videos\video2.mp4
+        1 arquivo(s) movido(s).
+
+C:\Users\Guga\Downloads\projeto>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é FAF5-5C96
+
+ Pasta de C:\Users\Guga\Downloads\projeto
+
+29/06/2026  17:47    <DIR>          .
+29/06/2026  17:39    <DIR>          ..
+27/06/2026  17:26             1.039 estilo.css
+29/06/2026  17:47    <DIR>          imagens
+27/06/2026  17:26             1.372 index.html
+29/06/2026  17:47    <DIR>          videos
+27/06/2026  18:04             2.375 videos.css
+27/06/2026  17:44             1.752 videos.html
+               4 arquivo(s)          6.538 bytes
+               4 pasta(s)   12.047.978.496 bytes disponíveis
+
+C:\Users\Guga\Downloads\projeto>tree /f
+Listagem de caminhos de pasta
+O número de série do volume é 00000004 FAF5:5C96
+C:.
+│   estilo.css
+│   index.html
+│   videos.css
+│   videos.html
+│
+├───imagens
+│       imagem1.jpg
+│       imagem2.jpg
+│       imagem3.jpg
+│       imagem4.jpg
+│       imagem5.jpg
+│       imagem6.jpg
+│
+└───videos
+        video1.mp4
+        video2.mp4
+
+
+C:\Users\Guga\Downloads\projeto>doskey /history > historico.txt
+
+C:\Users\Guga\Downloads\projeto>
